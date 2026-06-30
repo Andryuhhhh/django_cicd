@@ -8,7 +8,7 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     env:
-      SECRET_KEY: ${{ secrets.SECRET }}
+      SECRET_KEY: ${{ secrets.SECRET_KEY }}
       DEBUG: ${{ secrets.DEBUG_MODE }}
       ALLOWED: ${{ secrets.ALLOWED_HOSTS }}
       DB_ENGINE: ${{ secrets.DB_ENGINE }}
